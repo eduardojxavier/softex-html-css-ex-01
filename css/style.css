@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.area-principal{
+    display: block;
+}
+.area-principal p {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 800px;
+    
+}
+
+.area-principal h1{
+    color: gray;
+    padding-left: 20px;
+}
+
+.area-principal img{
+    padding-left: 20px;
+    width: 800px;
+    height: 480px;
+    float: left;
+    display: block;
+}
+
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.form{
+    margin:0 auto;
+    width:800px;
+    background:#222222;
+    float: left;
+    border:1px solid #262626;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+form, input, select, textarea{
+    color: #ffffff;
+}
+
+.form h1 {
+        color:#ffffff;
+        font-size:18px;
+        text-transform:uppercase;
+        padding:5px 0 5px 5px;
+        border-bottom:1px solid #161712;
+        border-top:1px solid #161712;
+}
+
+.form label {
+    width:100%;
+    display: block;
+    background:#000000;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+
+
+.form label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+.form .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+
+.form .messagem{
+    padding:7px 7px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:200px;
+}
+
+.form .button{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#1827b1;
+    border:0px;
+    position:static;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 1px double #0c0842;
+    border-top: 1px double #0c0842;
+    border-left:1px double #d4d8dd;
+    border-right:1px double #d4d8dd;
+}
